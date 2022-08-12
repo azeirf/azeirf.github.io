@@ -1,6 +1,6 @@
-$(function(){
-      $("#header").load("https://azeirf.github.io/header.html"); 
-      $("#navigation").load("https://azeirf.github.io/navigation.html"); 
-      $("#footer").load("https://azeirf.github.io/footer.html");
-	  $("#sidebar").load("https://azeirf.github.io/sidebar.html");
+$(function () {
+  $("#header").load("/header.html");
+  $("#navigation").load("/navigation.html");
+  $("#footer").load("/footer.html");
+  $("#sidebar").load("/sidebar.html");
 });
