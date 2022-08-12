@@ -69,6 +69,8 @@ a:hover {
   background-size: 997px;
   width: 997px;
   height: 128px;
+  margin: auto;
+  margin-top: 16px;
 }
 
 #navigation {
@@ -88,10 +90,20 @@ a:hover {
 
 #footer {
   text-align: center;
+  padding-left:auto;
+  padding-right:auto;
+  width: 1000px;
+}
+
+.footer {
+  text-align: center;
+  padding-left:auto;
+  padding-right:auto;
+  width: 1000px;
 }
 
 .window {
-  background: rgba(245, 245, 245, 0.25);
+  background: rgba(219, 219, 219, 0.33);
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf,
     inset -2px -2px grey, inset 2px 2px #fff;
   padding: 3px;
