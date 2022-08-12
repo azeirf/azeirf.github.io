@@ -6,6 +6,8 @@ body {
   background-image: url(/img/bgtest.gif);
   color: rgb(23, 112, 6);
   font-family: "Courier New", monospace; /*  */
+  text-shadow: -0.06em 0 0.5px rgba(255, 200, 100, 0.9);
+  font-size: 16px;
 }
 
 #container {
@@ -96,23 +98,19 @@ a:hover {
 #footer {
   text-align: center;
   width: 997px;
+  margin-bottom: 16px;
 }
 
 
 .window {
-  background: rgba(219, 219, 219, 0.33);
+  background: rgba(230, 233, 233,0.33);
+
+  background-position: bottom;
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf,
     inset -2px -2px grey, inset 2px 2px #fff;
   padding: 3px;
 }
-
-.z-text {
-  /* Tip: Apply CSS transforms here */
-  /* rotateX() == up/down */
-  /* rotateY() == left/right */
-  transform: rotateX(15deg) rotateY(-30deg);
-}
-
-.z-layer:not(:first-child) {
-  color: #455a64;
+.window.animbg {
+background-image: url(/img/infinitescroll.gif);
+background-size: 100%;
 }
