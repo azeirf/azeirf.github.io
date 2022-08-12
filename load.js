@@ -1,6 +1,6 @@
 $(function(){
-      $("#header").load("https://frieza.neocities.org/header.html"); 
-      $("#navigation").load("https://frieza.neocities.org/navigation.html"); 
-      $("#footer").load("https://frieza.neocities.org/footer.html");
-	  $("#sidebar").load("https://frieza.neocities.org/sidebar.html");
+      $("#header").load("https://azeirf.github.io/header.html"); 
+      $("#navigation").load("https://azeirf.github.io/navigation.html"); 
+      $("#footer").load("https://azeirf.github.io/footer.html");
+	  $("#sidebar").load("https://azeirf.github.io/sidebar.html");
 });
