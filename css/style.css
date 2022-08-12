@@ -90,13 +90,12 @@ a:hover {
 
 #footer {
   text-align: center;
-  margin:auto;
-  width: 997px;;
 }
 
-.footer {
+.footerads {
   text-align: center;
-  margin:auto;
+  width: 997px;
+  margin: auto;
 }
 
 .window {
