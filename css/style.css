@@ -72,6 +72,9 @@ a:hover {
 
 #sidebar{
 	text-align: center;
+  position: fixed;
+  right: 16px;
+  top: 16px;
 }
 
 #footer{
