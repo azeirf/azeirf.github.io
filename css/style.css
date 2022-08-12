@@ -48,3 +48,19 @@ a:hover {
     background-image:url(/img/HyperCam2.jpg);
 	background-size: 240px;
 }
+
+#header{
+	text-align: center;
+}
+
+#navigation{
+	text-align: center;
+}
+
+#sidebar{
+	text-align: center;
+}
+
+#footer{
+	text-align: center;
+}
