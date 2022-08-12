@@ -90,13 +90,9 @@ a:hover {
 
 #footer {
   text-align: center;
+  width: 997px;
 }
 
-.footerads {
-  text-align: center;
-  width: 997px;
-  margin: auto;
-}
 
 .window {
   background: rgba(219, 219, 219, 0.33);
