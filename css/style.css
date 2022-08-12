@@ -8,6 +8,11 @@ body {
   font-family: "Courier New", monospace; /*  */
 }
 
+#container {
+  width: 997px;
+  margin: auto;
+}
+
 a:visited,
 a:link,
 a:active {
@@ -99,4 +104,15 @@ a:hover {
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf,
     inset -2px -2px grey, inset 2px 2px #fff;
   padding: 3px;
+}
+
+.z-text {
+  /* Tip: Apply CSS transforms here */
+  /* rotateX() == up/down */
+  /* rotateY() == left/right */
+  transform: rotateX(15deg) rotateY(-30deg);
+}
+
+.z-layer:not(:first-child) {
+  color: #455a64;
 }
