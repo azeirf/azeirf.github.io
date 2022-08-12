@@ -65,10 +65,10 @@ a:hover {
 }
 
 .headerimg {
-  text-align: center;
   background: url(/img/header.png);
-  max-width: 997px;
-  max-height: 128px;
+  background-size: 997px;
+  width: 997px;
+  height: 128px;
 }
 
 #navigation {
