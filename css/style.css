@@ -71,6 +71,13 @@ a:hover {
   background-size: 240px;
 }
 
+#buttonbar {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  width: 128px;
+}
+
 h1 {
   font-size: 32px;
 }
@@ -100,15 +107,17 @@ h1 {
   line-height: 128px;
 }
 
-#content {
-  text-align: center;
+#flex {
+  display: flex;
+}
+
+aside {
+  width: 192px;
+  order: 1;
+  padding: 8px;
 }
 
 #sidebar {
-  text-align: center;
-  position: fixed;
-  right: 16px;
-  top: 16px;
 }
 
 #footer {
@@ -137,7 +146,6 @@ h1 {
   background-size: auto 40px;
   /* navbar color */
   width: 100%;
-  margin-bottom: 16px;
 }
 
 #navbar ul {
@@ -163,4 +171,11 @@ h1 {
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
   text-decoration: underline;
+}
+
+main {
+  background-color: rgba(255,255,255,0.1);
+  flex: 1;
+  padding: 16px;
+  order: 2;
 }
