@@ -12,7 +12,11 @@ body {
 
 #container {
   width: 997px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a:visited,
@@ -82,7 +86,7 @@ h1 {
 }
 
 #header {
-  text-align: center;
+  width: 100%;
 }
 
 .headerimg {
@@ -92,10 +96,8 @@ h1 {
   height: 128px;
   margin: auto;
   margin-top: 16px;
-}
-
-#navigation {
   text-align: center;
+  line-height: 128px;
 }
 
 #content {
@@ -115,9 +117,8 @@ h1 {
   margin-bottom: 16px;
 }
 
-
 .window {
-  background: rgba(230, 233, 233,0.33);
+  background: rgba(230, 233, 233, 0.33);
 
   background-position: bottom;
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf,
@@ -125,6 +126,41 @@ h1 {
   padding: 3px;
 }
 .window.animbg {
-background-image: url(/img/infinitescroll.gif);
-background-size: 100%;
+  background-image: url(/img/infinitescroll.gif);
+  background-size: 100%;
+}
+
+/* navigation section!! */
+#navbar {
+  height: 40px;
+  background-image: url(/img/navbar.png);
+  background-size: auto 40px;
+  /* navbar color */
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+#navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#navbar li {
+  padding-top: 10px;
+}
+
+/* navigation links*/
+#navbar li a {
+  /* navbar text color */
+  font-weight: 800;
+  text-decoration: none;
+  /* this removes the underline */
+}
+
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+  text-decoration: underline;
 }
