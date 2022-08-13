@@ -67,6 +67,20 @@ a:hover {
   background-size: 240px;
 }
 
+h1 {
+  font-size: 32px;
+}
+
+#SpiderSkull {
+  position: fixed;
+  left: 66%;
+  top: 0;
+  width: 108px;
+  height: 93px;
+  background-image: url(/img/spiderskull.gif);
+  background-size: 108px;
+}
+
 #header {
   text-align: center;
 }
