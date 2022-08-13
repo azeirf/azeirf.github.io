@@ -180,3 +180,9 @@ main {
   padding: 16px;
   order: 2;
 }
+
+#app {
+  position: fixed;
+  top: 50%;
+  left: 85%;
+}

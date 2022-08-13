@@ -22,10 +22,29 @@
     <script src="/load.js"></script>
   </head>
   <body>
+	<div id="app"></div>
+	<script src="https://unpkg.com/webamp"></script>
+	<script>new Webamp({
+		initialTracks: [{
+			metaData: {
+				artist: "The Boy is Mine",
+				title: "Brandy & Monica",
+			},
+		  
+		  // Be careful because mp3s use up a lot of space on your            account.
+			url: "https://sadhost.neocities.org/music/Boy.mp3",
+		}],
+		
+		initialSkin: {
+			url: 
+		  // Find skins https://skins.webamp.org - download them and          host them on your website!
+		 "/music/Pizza_Hut.wsz"
+		},}).renderWhenReady(app);</script>
     <div id="HyperCam2"></div>
     <div id="SpiderSkull"></div>
     <div id="scanlines"></div>
 	<div id="buttonbar"></div>
+	<div id="winamp-container"></div>
     <div id="container">
       <div id="header"></div>
       <div id="navbar"></div>
@@ -88,5 +107,6 @@
 	</main>
       <div id="footer"></div>
     </div>
+
   </body>
 </html>
