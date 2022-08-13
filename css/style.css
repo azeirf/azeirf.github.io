@@ -15,9 +15,7 @@ body {
   margin: 0 auto;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 a:visited,
 a:link,
@@ -69,6 +67,39 @@ a:hover {
   height: 22px;
   background-image: url(/img/HyperCam2.jpg);
   background-size: 240px;
+}
+
+.rainbow {
+  
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+  }
+
+
+
+#dogz {
+  position: fixed;
+  left: 25%;
+  bottom: 0;
+  width: 96px;
+  height: 96px;
+  background-image: url(/img/dogz.gif);
+  background-size: 96px;
 }
 
 #buttonbar {
