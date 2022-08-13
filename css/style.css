@@ -159,7 +159,7 @@ aside {
 }
 
 .window {
-  background: rgba(230, 233, 233, 0.33);
+  background: rgba(255, 255, 255, 0.2);
 
   background-position: bottom;
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf,
@@ -169,6 +169,7 @@ aside {
 .window.animbg {
   background-image: url(/img/infinitescroll.gif);
   background-size: 100%;
+  text-align: center;
 }
 
 /* navigation section!! */
